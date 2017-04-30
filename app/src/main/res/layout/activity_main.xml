@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a2449"
+    tools:context="ro.palkoistvan.android.androidquiz.MainActivity">
+
+    <ImageView
+        style="@style/BackgroundImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/android_robot" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView style="@style/WelcomeText" />
+
+        <ImageView style="@style/AndroidLogo" />
+
+        <TextView style="@style/QuizText" />
+
+        <EditText
+            android:id="@+id/nick_name"
+            style="@style/NickName" />
+
+        <Button
+            style="@style/GreenButton"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:onClick="startQuiz"
+            android:text="Start" />
+    </LinearLayout>
+
+</RelativeLayout>

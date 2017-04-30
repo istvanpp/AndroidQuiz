@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Android Quiz</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="quiz">Quiz</string>
+    <string name="enter_nickname">Enter your nickname</string>
+    <string name="start_button">Start</string>
+    <string name="start_text">Test your Android knowledge</string>
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="show_answers">Show Answers</string>
+    <string name="question1">Which company originally made Android?</string>
+    <string name="q1answer1">Apple</string>
+    <string name="q1answer2">Google</string>
+    <string name="q1answer3">Microsoft</string>
+    <string name="q1answer4">Android Inc.</string>
+    <string name="question2">Choose the available layouts in Android:</string>
+    <string name="q2answer1">Linear Layout</string>
+    <string name="q2answer2">Horizontal Layout</string>
+    <string name="q2answer3">Table Layout</string>
+    <string name="question3">What programming language do Android app developers use?</string>
+    <string name="q3answer1">Type the answer</string>
+    <string name="question4">What is sandbox mode in Android?</string>
+    <string name="q4answer1">Development tool kit.</string>
+    <string name="q4answer2">Each application runs securely in sandbox without interrupting another process.</string>
+    <string name="question5">Which of the following data type(s) are supported by AIDL?</string>
+    <string name="q5answer1">All primitive types in the Java</string>
+    <string name="q5answer2">Intent</string>
+    <string name="q5answer3">String</string>
+    <string name="q5answer4">List</string>
+    <string name="question6">What is the meaning of the activity?</string>
+    <string name="q6answer1">They serve as the entry point for a user\'s interaction with an app.</string>
+    <string name="q6answer2">Is a messaging object you can use to request an action from another app component.</string>
+    <string name="sixCorrect">Perfect<xliff:g example="Steven" id="name">%1$s</xliff:g>\nAll answers are correct.</string>
+    <string name="fourCorrect">Very good<xliff:g example="Steven" id="name">%1$s</xliff:g>\nYou got <xliff:g example="4" id="points">%2$s</xliff:g> correct answers.</string>
+    <string name="twoCorrect">Good<xliff:g example="Steven" id="name">%1$s</xliff:g>\nYou got <xliff:g example="2" id="points">%2$s</xliff:g> correct answers.</string>
+    <string name="oneCorrect">Bad<xliff:g example="Steven" id="name">%1$s</xliff:g>\nYou got only one correct answer.</string>
+    <string name="noCorrect">Very Bad <xliff:g example="Steven" id="name">%1$s</xliff:g> :(\nNone of your answers are correct.\nClick\"Show Answers\" to check the solution.</string>
+</resources>

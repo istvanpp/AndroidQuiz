@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#77c159</item>
+    </style>
+
+    <!-- Background image. -->
+    <style name="BackgroundImage">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:scaleType">fitStart</item>
+        <item name="android:src">@drawable/android_robot</item>
+    </style>
+
+    <!-- Welcome text. -->
+    <style name="WelcomeText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:text">@string/welcome_to</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!-- Green Android logo. -->
+    <style name="AndroidLogo">
+        <item name="android:layout_width">256dp</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:src">@drawable/android_logo</item>
+    </style>
+
+    <!-- Quiz text under the logo. -->
+    <style name="QuizText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/marginRight</item>
+        <item name="android:text">@string/quiz</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- EditText for user nickname-->
+    <style name="NickName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:hint">@string/enter_nickname</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Style for green button on all activites-->
+    <style name="GreenButton">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Test your knowledge text -->
+    <style name="startText">
+        <item name="android:layout_width">match_parent</item>"
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:text">@string/start_text</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">22sp</item>
+        `
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Question text -->
+    <style name="QuestionText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#80aeaeae</item>
+    </style>
+
+    <!-- Radio buttons -->
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Extra style for CardViews-->
+    <style name="Cards">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>
