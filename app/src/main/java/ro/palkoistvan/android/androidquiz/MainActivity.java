@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText nickName;
+    EditText testName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
