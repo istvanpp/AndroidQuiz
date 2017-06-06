@@ -34,10 +34,6 @@
 
         <Button
             style="@style/GreenButton"
-            android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:onClick="startQuiz"
-            android:text="Start" />
+            android:onClick="startQuiz" />
     </LinearLayout>
-
 </RelativeLayout>

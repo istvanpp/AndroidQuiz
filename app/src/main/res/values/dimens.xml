@@ -5,5 +5,4 @@
     <dimen name="marginTop">20dp</dimen>
     <dimen name="marginBottom">20dp</dimen>
     <dimen name="padding">10dp</dimen>
-
 </resources>
